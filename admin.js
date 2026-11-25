@@ -1,5 +1,5 @@
 // ใส่ Google Apps Script Web App URL หลัง Deploy
-const API_URL="PASTE_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
+const API_URL="https://script.google.com/macros/s/AKfycbwBCXGDGWs5cOr20RisJCVf9N1MmPpdDjHSV_QQTDraww1RCqNxuOWNg17pqn8C3zzvPA/exec";
 const money=n=>"฿"+Number(n).toLocaleString("th-TH");let all=[];
 let adminKey=sessionStorage.getItem("senzeed_admin_key")||"";
 async function api(body){const r=await fetch(API_URL,{method:"POST",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(body)});return r.json();}
