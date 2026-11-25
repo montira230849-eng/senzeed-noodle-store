@@ -1,5 +1,5 @@
 // ใส่ Google Apps Script Web App URL หลังตั้งค่า Google Sheets
-const API_URL = "PASTE_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
+const API_URL = "https://script.google.com/macros/s/AKfycbwBCXGDGWs5cOr20RisJCVf9N1MmPpdDjHSV_QQTDraww1RCqNxuOWNg17pqn8C3zzvPA/exec";
 const PRODUCTS = [
  {id:"NOODLE-001",name:"ต้มยำกุ้งน้ำข้น",desc:"รสจัดจ้าน เปรี้ยว เผ็ด มัน หอมเครื่องต้มยำ",price:15,image:"assets/tomyum.svg",tag:"ขายดี"},
  {id:"NOODLE-002",name:"หมูสับทรงเครื่อง",desc:"น้ำซุปกลมกล่อม หอมกระเทียมเจียว อร่อยลงตัว",price:15,image:"assets/pork.svg",tag:"แนะนำ"}
